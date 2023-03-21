@@ -18,6 +18,9 @@
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "@types/hls.js": "^1.0.0",
+    "hls.js": "^1.0.7",
+    "ngx-carousel-lib": "^0.1.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"

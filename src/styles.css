@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+/*Global colors*/
+:root {
+  --colorPrimary: #18181b;
+  --colorSecondary: #772ce8;
+  --colorThird: #0e0e10;
+  --colorFourd: #464649;
+
+  --textPrimary: #fff;
+  --colorDanger: red;
+
+  --fontSizePrimary: 1rem;
+  --fontSizeSecondary: 1.2rem;
+  
+  --borderRadius: 0.25rem;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--colorThird);
+  color: var(--textPrimary);
+  font-family: 'League Spartan', sans-serif;
+}
+
+.menu-src input::placeholder {
+  color: #c0c0c0;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: var(--borderRadius);
+  border: 0;
+  height: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: var(--colorSecondary);
+  color: var(--textPrimary);
+  padding: 0.35rem 0.5rem;
+  margin: 0 0.35rem;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.btn-default {
+  background-color: var(--colorFourd);
+  color: var(--textPrimary);
+  padding: 0.35rem 0.5rem;
+  margin: 0 0.35rem;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.d-flex {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
