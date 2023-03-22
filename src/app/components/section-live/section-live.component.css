@@ -12,11 +12,12 @@
 }
 
 ::ng-deep .wrapper-carousel .container {
-  height: 300px !important;
+  height: 340px !important;
 }
 
 ::ng-deep .item-carousel {
   opacity: 0.1 !important;
+  height: 340px !important;
   filter: blur(5px);
   border: 1px solid black !important;
   box-shadow: inset 0 0 20px black;

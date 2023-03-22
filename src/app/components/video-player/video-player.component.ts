@@ -25,8 +25,8 @@ export class VideoPlayerComponent implements OnInit {
 
   ngOnInit(): void {
     this.user = this._activatedRoute.snapshot.paramMap.get('user') || 'HOME';
-    // console.log('user capturado', this.user);
-    this.load(`http://190.40.184.41:8000/live/${this.user}/index.m3u8`);
+    // console.log('user capturado', this.user); 192.168.1.9
+    this.load(`http://192.168.1.9:8000/live/${this.user}/index.m3u8`);
   }
 
   load(currentVideo: string) {
